@@ -1,0 +1,36 @@
+INFO  [2025-06-23 17:38:35,336] io.dropwizard.core.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2025-06-23 17:38:35,339] io.dropwizard.core.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2025-06-23 17:38:35,412] io.dropwizard.core.server.ServerFactory: Starting hoen-scanner
+================================================================================
+
+                           Welcome to Hoen Scanner!
+
+================================================================================
+
+INFO  [2025-06-23 17:38:35,555] org.eclipse.jetty.setuid.SetUIDListener: Opened application@2bfbffb2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2025-06-23 17:38:35,556] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@765df79d{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2025-06-23 17:38:35,559] org.eclipse.jetty.server.Server: jetty-11.0.12; built: 2022-09-14T02:38:00.723Z; git: d5b8c29485f5f56a14be5f20c2ccce81b93c5555; jvm 17.0.15+0
+
+INFO  [2025-06-23 17:38:36,133] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    POST    /search (com.skyscanner.SearchResource)
+
+INFO  [2025-06-23 17:38:36,136] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1921994e{/,null,AVAILABLE}
+INFO  [2025-06-23 17:38:36,141] io.dropwizard.core.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2025-06-23 17:38:36,142] io.dropwizard.core.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2025-06-23 17:38:36,142] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@7c112f5f{/,null,AVAILABLE}
+INFO  [2025-06-23 17:38:36,154] org.eclipse.jetty.server.AbstractConnector: Started application@2bfbffb2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2025-06-23 17:38:36,156] org.eclipse.jetty.server.AbstractConnector: Started admin@765df79d{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2025-06-23 17:38:36,159] org.eclipse.jetty.server.Server: Started Server@6fc3e1a4{STARTING}[11.0.12,sto=30000] @2799ms
